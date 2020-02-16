@@ -1,0 +1,114 @@
+Segment  Base   Top    High   Length
+-------- ------ ------ ------ -------
+icon     D1A882 D1A999           117h
+launcher D1A999 D1A9F1            58h
+libs     D1A9F1 D1AAA0            AFh
+startup  D1AAA0 D1AADF            3Fh
+cleanup  D1AADF D1AAF3            14h
+exit     D1AAF3 D1AAF9             6h
+code     D1AAF9 D24362          9869h
+data     D24362 D266D3          2371h
+strsect  D266D3 D267EB           118h
+text     D267EB D26E17           62Ch
+bss      D031F6 D031FC D13FD6      6h
+header   D1A87F D1A882             3h
+
+Label                                        Value
+------------------------------------------   ------
+_sin                                       = 022118
+_cos                                       = 02211C
+_os_DisableHomeTextBuffer                  = D1AAF9
+_os_EnableHomeTextBuffer                   = D1AB0B
+_random                                    = D1AB1D
+__state                                    = D24362
+__scmpzero                                 = 000204
+__ltof                                     = 000284
+__frameset                                 = D1AB74
+__fmul                                     = 000288
+_sprintf                                   = 0000BC
+__fsub                                     = 000290
+__imul_b                                   = 000158
+__imul_b                                   = 000150
+__fneg                                     = D1AB82
+__itol                                     = 000194
+__ishru_b                                  = 000184
+__ishru_b                                  = 000188
+__stoiu                                    = 000264
+__fcmp                                     = 000274
+__s_sbrk                                   = D1AB8F
+__ildix                                    = 000148
+__istix                                    = 00018C
+_strcpy                                    = 0000CC
+__idivs                                    = 00013C
+__iremu                                    = 000170
+__icmpzero                                 = 000138
+_abs                                       = D1ABAF
+__fadd                                     = 000270
+__fdiv                                     = 000278
+__stoi                                     = 000260
+__ineg                                     = 000160
+__setflag                                  = 000218
+__ldvrmu                                   = 0001B8
+__ldvrmu                                   = 0001BC
+__ftol                                     = 00027C
+__ultof                                    = 000280
+_malloc                                    = D1ABEC
+__alloc_base                               = D031F6
+__findlibload                              = D1A999
+__program_icon                             = D1A887
+__program_description                      = D1A989
+__ccleanup                                 = D1AADF
+_errno                                     = D008DC
+_init                                      = D1A882
+_exit                                      = D1AAF5
+__exit                                     = D1AACE
+__exitsp                                   = D1AACE
+__errsp                                    = D1AACE
+_asteroida_data                            = D24397
+_asteroidb_data                            = D2471D
+_asteroidc_data                            = D24AA3
+_main                                      = D1B03B
+_Confirm                                   = D1ACD2
+_BlaText                                   = D1ACB3
+_WhiText                                   = D1AC94
+_spaceshipa_data                           = D24E29
+_spaceshipb_data                           = D251AF
+_spaceshipc_data                           = D25535
+_spaceshipd_data                           = D258BB
+_spaceshipe_data                           = D25C41
+_spaceshipf_data                           = D25FC7
+_spaceshipg_data                           = D2634D
+_ti_CloseAll                               = D1AA05
+_ti_Open                                   = D1AA09
+_ti_Write                                  = D1AA0D
+_ti_Read                                   = D1AA11
+_ti_SetArchiveStatus                       = D1AA15
+_gfx_Begin                                 = D1AA22
+_gfx_End                                   = D1AA26
+_gfx_SetColor                              = D1AA2A
+_gfx_FillScreen                            = D1AA2E
+_gfx_SetPixel                              = D1AA32
+_gfx_SetDraw                               = D1AA36
+_gfx_SwapDraw                              = D1AA3A
+_gfx_PrintStringXY                         = D1AA3E
+_gfx_SetTextBGColor                        = D1AA42
+_gfx_SetTextFGColor                        = D1AA46
+_gfx_SetTextTransparentColor               = D1AA4A
+_gfx_GetStringWidth                        = D1AA4E
+_gfx_Line                                  = D1AA52
+_gfx_HorizLine                             = D1AA56
+_gfx_Circle                                = D1AA5A
+_gfx_FillCircle                            = D1AA5E
+_gfx_Rectangle                             = D1AA62
+_gfx_FillRectangle                         = D1AA66
+_gfx_AllocSprite                           = D1AA6A
+_gfx_TransparentSprite                     = D1AA6E
+_gfx_GetSprite                             = D1AA72
+_gfx_ScaledTransparentSprite_NoClip        = D1AA76
+_gfx_FillTriangle                          = D1AA7A
+_gfx_SetTextScale                          = D1AA7E
+_gfx_SetTransparentColor                   = D1AA82
+_gfx_ZeroScreen                            = D1AA86
+_gfx_RotatedScaledTransparentSprite_NoClip = D1AA8A
+_kb_Scan                                   = D1AA98
+_kb_AnyKey                                 = D1AA9C

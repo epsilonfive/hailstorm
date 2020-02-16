@@ -1,0 +1,30 @@
+ .def __program_icon
+ .def __program_description
+
+ .assume adl=1
+ segment .icon
+
+ jp __program_description_end
+ db 1
+__program_icon:
+ db 16,16
+ db 000h,000h,000h,000h,000h,000h,000h,000h,000h,000h,000h,000h,000h,000h,000h,000h
+ db 000h,000h,000h,000h,000h,000h,0FFh,000h,000h,000h,000h,000h,000h,000h,000h,000h
+ db 000h,000h,000h,0FFh,000h,000h,000h,000h,000h,000h,000h,0FFh,000h,000h,000h,000h
+ db 000h,000h,000h,000h,000h,000h,000h,000h,0FFh,000h,000h,000h,000h,000h,0FFh,000h
+ db 000h,000h,000h,000h,000h,08Ch,08Ch,000h,000h,08Ch,08Ch,000h,000h,000h,000h,000h
+ db 000h,0FFh,000h,000h,000h,08Ch,08Ch,000h,000h,08Ch,08Ch,000h,0FFh,000h,000h,000h
+ db 000h,000h,000h,000h,000h,08Ch,08Ch,000h,000h,08Ch,08Ch,000h,000h,000h,000h,000h
+ db 000h,000h,0FFh,000h,000h,08Ch,08Ch,08Ch,08Ch,08Ch,08Ch,000h,000h,000h,0FFh,000h
+ db 000h,000h,000h,000h,000h,08Ch,08Ch,08Ch,08Ch,08Ch,08Ch,000h,000h,000h,000h,000h
+ db 000h,000h,000h,000h,000h,08Ch,08Ch,000h,000h,08Ch,08Ch,000h,000h,000h,000h,000h
+ db 000h,000h,000h,000h,08Ch,08Ch,08Ch,000h,000h,08Ch,08Ch,08Ch,000h,000h,000h,000h
+ db 000h,000h,000h,000h,08Ch,08Ch,08Ch,000h,000h,08Ch,08Ch,08Ch,000h,000h,000h,000h
+ db 000h,0FFh,000h,08Ch,08Ch,08Ch,08Ch,08Ch,08Ch,08Ch,08Ch,08Ch,08Ch,000h,0FFh,000h
+ db 000h,000h,000h,08Ch,03Ah,01Dh,01Dh,03Ah,03Ah,01Dh,01Dh,03Ah,08Ch,000h,000h,000h
+ db 000h,000h,0FFh,000h,000h,03Ah,03Ah,000h,000h,03Ah,03Ah,000h,000h,000h,000h,000h
+ db 000h,000h,000h,000h,000h,000h,000h,000h,000h,000h,000h,000h,0FFh,000h,000h,000h
+
+__program_description:
+ db "Hailstorm 0.0.1",0
+__program_description_end:
