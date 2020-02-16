@@ -2,8 +2,6 @@
 // Author: epsilon5
 // License: none
 // Description: a fun game
-
-//build you fucker
 #include "sprites.h"
 
 /* Keep these headers */
